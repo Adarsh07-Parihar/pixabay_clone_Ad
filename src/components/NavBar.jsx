@@ -10,7 +10,7 @@ const NavBar = () => {
 <button onClick={()=>fetchImageByCategory("science")} type="button" className="btn btn-outline-warning mx-3">Science</button>
 <button onClick={()=>fetchImageByCategory("computer")} type="button" className="btn btn-outline-light mx-3">Computer</button>
 <button onClick={()=>fetchImageByCategory("buildings")} type="button" className="btn btn-outline-danger mx-3">Buildings</button>
-<button onClick={()=>fetchImageByCategory("sports")} type="button" class="btn btn-outline-warning mx-3">Sports</button>
+<button onClick={()=>fetchImageByCategory("sports")} type="button" className="btn btn-outline-warning mx-3">Sports</button>
 <button onClick={()=>fetchImageByCategory("transportation")} type="button" className="btn btn-outline-info mx-3">Transportation</button>
 <button onClick={()=>fetchImageByCategory("travel")} type="button" className="btn btn-outline-light mx-3">Travel</button>
 <button onClick={()=>fetchImageByCategory("food")} type="button" className="btn btn-outline-primary mx-3">Food</button>
